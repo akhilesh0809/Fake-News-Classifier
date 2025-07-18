@@ -17,21 +17,8 @@ It allows users to upload datasets, preprocess text data, apply n-gram transform
 
 ---
 
-📂 Folder Structure
+![Uploading image.png…]()
 
-Fake-News-Classifier/
-├── Main.py                    # Main executable script
-├── Output/
-│   └── results.pdf            # Final prediction results
-├── TwitterNewsData/
-│   ├── news.csv               # Training dataset
-│   └── testNews.txt           # Test data to classify
-├── model/
-│   ├── model.json             # Model architecture
-│   ├── model_weights.h5       # Trained LSTM weights
-│   ├── history.pckl           # Training history
-│   └── model.txt              # Additional info
-└── README.md
 
 ---
 
