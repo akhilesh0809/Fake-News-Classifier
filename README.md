@@ -1,10 +1,10 @@
 📰 Fake News Classifier using NLP + LSTM
-
+------------------------------------------
 This project is a machine learning-based Fake News Detection System that classifies news text (from social media or articles) as FAKE or REAL using a trained LSTM (Long Short-Term Memory) model, leveraging Natural Language Processing (NLP) and Attribution Scoring.
 
 It allows users to upload datasets, preprocess text data, apply n-gram transformation, train the model, and test real-world news snippets.
 
----
+------------------------------------------
 
 📌 Features
 
@@ -15,12 +15,7 @@ It allows users to upload datasets, preprocess text data, apply n-gram transform
 - Visualizations for Accuracy and Loss
 - Output results shown and saved
 
----
-
-![Uploading image.png…]()
-
-
----
+------------------------------------------
 
 🧠 Algorithms & Techniques Used
 
@@ -29,7 +24,7 @@ It allows users to upload datasets, preprocess text data, apply n-gram transform
 - Named Entity Recognition (NER) — quote, verb, and entity extraction for attribution scoring
 - Supervised Learning Estimator — for computing classification score
 
----
+------------------------------------------
 
 🧰 Technologies Used
 
@@ -43,7 +38,7 @@ Scikit-learn   | Preprocessing, model evaluation
 re, os         | Regex + file ops
 pickle         | Save/load model training history
 
----
+------------------------------------------
 
 📦 Installation
 
@@ -51,7 +46,7 @@ Make sure Python 3.7+ is installed. Then install dependencies:
 
 pip install numpy pandas matplotlib scikit-learn tensorflow keras nltk
 
----
+------------------------------------------
 
 ▶️ How to Run
 
@@ -68,7 +63,7 @@ python Main.py
    - Accuracy & Loss Graph → Show training performance
    - Test News Detection → Classify new news using testNews.txt
 
----
+------------------------------------------
 
 📊 Sample Output
 
@@ -83,7 +78,7 @@ python Main.py
 - Accuracy improves with higher-quality dataset and tuning
 - Shows strong potential for real-world fake news filtering
 
----
+------------------------------------------
 
 🔮 Future Work
 
@@ -92,7 +87,7 @@ python Main.py
 - Include real-time Twitter scraping and analysis
 - Multilingual support for global fake news detection
 
----
+------------------------------------------
 
 📚 Reference Paper
 
